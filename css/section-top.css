@@ -1,6 +1,6 @@
 .section-top{
     display: inline-flex;
-    background: url(/images/top_bg.jpg) center no-repeat;
+    background: url(../images/top_bg.jpg) center no-repeat;
     background-size: cover;
     width: 100%;
     height: 707px;
