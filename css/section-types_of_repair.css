@@ -105,16 +105,16 @@
 }
 
 .item-1{
-    background: url(/images/types_of_repair-item_img.jpg) top no-repeat;
+    background: url(../images/types_of_repair-item_img.jpg) top no-repeat;
 }
 
 .item-2{
-    background: url(/images/types_of_repair-item_img2.jpg) top no-repeat;
+    background: url(../images/types_of_repair-item_img2.jpg) top no-repeat;
     margin: 0 10px;
 }
 
 .item-3{
-    background: url(/images/types_of_repair-item_img3.jpg) top no-repeat;
+    background: url(../images/types_of_repair-item_img3.jpg) top no-repeat;
 }
 
 .section-types_of_repair__inner-items-2{
@@ -264,7 +264,7 @@
 }
 
 input:checked + label:before {
-    content: url(/images/online-control-icon.svg);
+    content: url(../images/online-control-icon.svg);
     background:#E3B873;
     color: #fff;
   }
