@@ -1,5 +1,5 @@
 .section-styles{
-    background: url(/images/styles-bg_image.jpg) no-repeat;
+    background: url(../images/styles-bg_image.jpg) no-repeat;
     background-size: 100% 864px;
     height: 909px;
     display: flex;
