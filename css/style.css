@@ -119,7 +119,7 @@
 }
 
 .form_wrapper_input-container input:checked + label:before {
-    content: url(/images/online-control-icon.svg);
+    content: url(../images/online-control-icon.svg);
     background:#E3B873;
     color: #fff;
   }
