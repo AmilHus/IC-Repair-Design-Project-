@@ -46,7 +46,7 @@
 }
 
 .section-online_control__inner-image_btn{
-    background: url(/images/online_control-image_btn.svg) center no-repeat;
+    background: url(../images/online_control-image_btn.svg) center no-repeat;
     width: 100px;
     height: 100px;
     border: none;
@@ -154,7 +154,7 @@
 }
 
 input:checked + label:before {
-    content: url(/images/online-control-icon.svg);
+    content: url(../images/online-control-icon.svg);
     background:#E3B873;
     color: #fff;
   }
