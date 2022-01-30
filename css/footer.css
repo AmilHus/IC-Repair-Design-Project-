@@ -1,0 +1,145 @@
+.footer{
+    font-family: Nunito Sans;
+    background: rgba(19, 19, 19, 1);
+    width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.footer-title{
+    color: rgba(227, 184, 115, 1);
+    font-weight:normal;
+}
+
+.footer__inner{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1286px;
+    margin: 0 auto;;
+    padding: 22px 15px 21px 15px;
+}
+
+.footer__inner-start{
+    display: flex;
+    width: 100%;
+    max-width: 152px;
+    margin-right: 35px;
+}
+
+.footer__inner-end{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    max-width: 591px;
+    margin-right: 25px;
+}
+
+.navbar-ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.navbar-link{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 10px;
+    transition: 0.5s;
+    font-weight:normal;
+}
+
+.navbar-link:hover{
+    color: rgba(227, 184, 115, 1);
+    transition: 0.5s;
+}
+
+.footer-phone{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 307px;
+    align-items: center;
+}
+
+.footer-phone__text{
+    color: rgba(227, 184, 115, 1);
+    text-decoration: underline;
+    margin-right: 10px;
+    font-weight:normal;
+}
+
+.footer-btn{
+    padding: 13px 33px;
+    color: #fff;
+    background: rgba(227, 184, 115, 1);
+    border:none;
+    border-radius: 2px;
+    font-style: italic;
+    cursor: pointer;
+    font-weight:normal;
+}
+
+.footer-btn{
+    margin:0 10px;
+}
+
+.btn{
+    color: #fff;
+    background: rgba(227, 184, 115, 1);
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .footer__inner{
+        padding: 23px 18px;
+    }
+
+    .footer-title{
+        margin-right: 0;
+    }
+
+    .footer__inner-end{
+        justify-content: end;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .footer-btn{
+        display: none;
+    }
+
+    .footer-phone{
+        justify-content: end;
+    }
+
+    .footer-phone__text{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer{
+        display: none;
+    }
+}

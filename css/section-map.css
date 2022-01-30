@@ -1,0 +1,105 @@
+.section-map{
+    display: flex;
+    flex-direction: column;
+    height: 951px;
+    background: url(/images/map-bg.jpg);
+    background-size: 100% 101%;
+    align-items: center;
+    text-align: center;
+}
+
+.section-map__inner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 274px;
+}
+
+.section-map__inner-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(227, 184, 115, 1);
+    max-width: 542px;
+}
+
+.section-map__inner-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 71px;
+    margin-top: 26px;
+}
+
+.section-map__inner-img{
+    margin-top: 43px;
+    height: 465px;
+}
+
+.section-map__inner-img_mobile{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .section-map__inner-img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+   .section-map{
+        transform: translateY(547px);
+        position: relative;
+        z-index: -1;
+        justify-content: end;
+        height: unset;
+        background: rgba(24, 24, 24, 1);
+   }
+
+   .section-map__inner{
+       display: grid;
+       align-items: center;
+       justify-content: center;
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 140px auto;
+       top: unset;
+       height: 100%;
+       margin-top: 52px;
+   }
+
+   .section-map__inner-title{
+       order:2;
+   }
+
+   .section-map__inner-icons{
+       margin-bottom: 49px;
+       order:3;
+       justify-self: center;
+       max-width: 114px;
+       margin-top: 0;
+   }
+
+   .section-map__inner-icons img{
+       width: 39px;
+       height: 39px;
+       margin: 0 10px;
+       cursor: pointer;
+   }
+
+   .section-map__inner-img{
+       display: none;
+   }
+
+   .section-map__inner-img_mobile{
+       display: block;
+       width: 100%;
+   }
+}
