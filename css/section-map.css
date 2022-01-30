@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 951px;
-    background: url(/images/map-bg.jpg);
+    background: url(../images/map-bg.jpg);
     background-size: 100% 101%;
     align-items: center;
     text-align: center;
