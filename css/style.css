@@ -159,6 +159,7 @@
         transform: translate(0, -18%);
         height: 667px;
         justify-content: end;
+        padding:0;
     }
 
     .form_text{
