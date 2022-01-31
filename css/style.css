@@ -178,7 +178,11 @@
         max-width: 340px;
         margin-top: 63px;
     }
-
+    
+    .form_container input{
+        border-color:#FFFFFF;
+    }
+    
     .form_container:first-of-type{
         margin-top: 0;
     }
