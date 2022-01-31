@@ -204,6 +204,7 @@ input:checked + label:before {
     .section-online_control__inner-form input{
         background: transparent;
         border-color: #fff !important;
+        color:#fff;
     }
 
     .section-online_control__inner-form input::placeholder{
