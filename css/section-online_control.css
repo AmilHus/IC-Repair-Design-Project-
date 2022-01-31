@@ -195,6 +195,10 @@ input:checked + label:before {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         height: 308px;
     }
+    
+    .section-online_control__inner-form :last-child{
+        color: #fff;
+    }
 
     .section-online_control__inner-form label{
         color: #FFFFFF80;
