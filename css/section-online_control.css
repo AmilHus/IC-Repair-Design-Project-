@@ -171,7 +171,7 @@ input:checked + label:before {
 
 .form_container input{
     border: none;
-    border-bottom: 1px solid #3636364D;
+    border-bottom: 1px solid #FFFFFF26;
     padding-bottom: 8px;
 }
 
