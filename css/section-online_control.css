@@ -273,4 +273,8 @@ input:checked + label:before {
     .section-online_control__inner-form_btn{
         max-width: 340px;
     }
+    
+    .form_container input{
+       border-bottom: 1px solid #ffffff;
+    }
 }
