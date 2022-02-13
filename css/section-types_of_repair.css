@@ -284,6 +284,7 @@ input:checked + label:before {
     text-transform: uppercase;
     color: #fff;
     border: none;
+    cursor:pointer;
 }
 
 .section-types_of_repair__inner-items-icon{
