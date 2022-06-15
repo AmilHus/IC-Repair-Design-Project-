@@ -400,7 +400,7 @@ input:checked + label:before {
         padding: 11px 23px;
         font-size: 15px;
         line-height: 20px;
-        position: absolute;
+        position: relative;
         transform: translateY(10px);
         top: unset;
     }
