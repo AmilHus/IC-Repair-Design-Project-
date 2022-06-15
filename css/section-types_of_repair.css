@@ -387,7 +387,7 @@ input:checked + label:before {
     .section-types_of_repair__inner-item_container_info-title{
         font-size: 15px;
         line-height: 21px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .section-types_of_repair__inner-item_container_info-ul{
@@ -401,7 +401,6 @@ input:checked + label:before {
         font-size: 15px;
         line-height: 20px;
         position: relative;
-        transform: translateY(-100px);
         top: unset;
     }
     
