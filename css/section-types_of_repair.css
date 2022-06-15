@@ -401,7 +401,7 @@ input:checked + label:before {
         font-size: 15px;
         line-height: 20px;
         position: relative;
-        transform: translateY(10px);
+        transform: translateY(-100px);
         top: unset;
     }
     
